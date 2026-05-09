@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mvn="3.9.9"
+mvn="3.9.15"
 
 apt-get update
 apt install -y curl unzip

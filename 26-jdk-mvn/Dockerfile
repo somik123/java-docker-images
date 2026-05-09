@@ -1,6 +1,6 @@
-FROM ubuntu:22.04
+FROM ubuntu:26.04
 
-ENV JAVA_HOME=/usr/java/jdk-21-oracle-x64
+ENV JAVA_HOME=/usr/java/jdk-25-oracle-x64
 ENV MAVEN_HOME=/usr/share/maven
 ENV PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH
 

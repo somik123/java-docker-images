@@ -2,6 +2,6 @@
 
 
 
-curl -o ~/jdk-21_linux-x64_bin.deb https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb
-apt install ~/jdk-21_linux-x64_bin.deb 
-rm ~/jdk-21_linux-x64_bin.deb
+curl -o ~/jdk-25_linux-x64_bin.deb https://download.oracle.com/java/25/latest/jdk-25_linux-x64_bin.deb
+apt install ~/jdk-25_linux-x64_bin.deb 
+rm ~/jdk-25_linux-x64_bin.deb

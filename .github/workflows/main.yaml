@@ -9,10 +9,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - dockerfile: ./22-jdk21-mvn/Dockerfile
-            tag: somik123/ubuntu:22-jdk21-mvn
-          - dockerfile: ./22-jdk21/Dockerfile
-            tag: somik123/ubuntu:22-jdk21
+          - dockerfile: ./26-jdk-mvn/Dockerfile
+            tag: somik123/ubuntu:26-jdk-mvn
+          - dockerfile: ./26-jdk/Dockerfile
+            tag: somik123/ubuntu:26-jdk
 
     steps:
       # Step 1 ==> Checkout code
